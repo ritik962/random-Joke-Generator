@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  background-color: rgba(0, 0, 0, 0.911);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+.emojiWrapper {
+  height: 150px;
+  width: 150px;
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.joke {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 2rem;
+  display: none;
+}
+
+.btn {
+  width: 60%;
+  font-size: 1.5rem;
+  padding: 10px 1rem;
+  outline: none;
+  border: none;
+  background-color: orange;
+  font-weight: 550;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:active {
+  font-size: 1.55rem;
+}
